@@ -35,7 +35,7 @@ public class CS11Turtle extends Turtle
 	 * Delay between turtle actions (turns, moves) in milliseconds.
 	 * 1000 = 1 sec. so 100 = 0.1 sec.
 	 */
-	private final static int DELAY = 50; //ads a delay of .1 seconds
+	private final static int DELAY = 100; //ads a delay of .1 seconds
 	//between draw commands
 	/*
 	 * Name: Constructor name
@@ -265,33 +265,6 @@ public class CS11Turtle extends Turtle
 		forward(80);
 		turnLeft();
 		forward(40);
-	}
-
-
-	/*
-	 * Name: drawR
-	 * Purpose: draws the letter R
-	 * Parameters: int x, int y.
-	 * Specifies x,y coordinates for drawing canvas
-	 * Return: void 
-	 */
-	private void drawR(int x, int y)
-	{
-		penUp();
-		moveTo(x, y);
-		turnToFace(getXPos() + 1, getYPos());
-		turnRight();
-		penDown();
-		forward(80);
-		backward(80);
-		turnLeft();
-		forward(40);
-		turnRight();
-		forward(40);
-		turnRight();
-		forward(40);
-		turn(225);
-		forward(56);
 	}
 
 	/*
