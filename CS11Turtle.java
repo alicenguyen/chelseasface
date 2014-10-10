@@ -1,6 +1,7 @@
 
 /*
- * Name: Chelsea Pattee <<< --- My Name!  * Login: cs11fhc <<< --- my account name!
+ * Name: Chelsea Pattee <<< --- My Name!  
+ * Login: cs11fhc <<< --- my account name!
  * Date: October 9, 2014
  * File: CS11Turtle.java
  * Sources of Help: Eventful Java Class Textbook. This is a blast. yay.
